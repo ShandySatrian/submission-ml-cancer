@@ -1,0 +1,28 @@
+{
+  "name": "submission-penerapan-machine-learning",
+  "version": "1.0.0",
+  "description": "submission-penerapan-machine-learning-dengan-googlecloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "submission"
+  ],
+  "author": "Shandy Satria",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@google-cloud/storage": "^7.14.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "3.21.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.12.0"
+  }
+}
